@@ -17,4 +17,5 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
                 if k>j+1 and nums[k] == nums[k-1]:
                     continue
                 if nums[i] + nums[j] + nums[k] == 0:
-                    results.appned([nums[i], nums[j], nums[k]])
+                    results.append([nums[i], nums[j], nums[k]])
+    return results
